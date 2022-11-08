@@ -6,7 +6,7 @@ import { BlogModule } from './blog/blog.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://admin:!mxi1982!@cluster0.wxdfm.mongodb.net/?retryWrites=true&w=majority'),
+    MongooseModule.forRoot('mongodb+srv://admin:<password>@cluster0.wxdfm.mongodb.net/?retryWrites=true&w=majority'),
     BlogModule
   ],
   controllers: [AppController],
